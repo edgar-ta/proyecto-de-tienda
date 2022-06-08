@@ -1,0 +1,30 @@
+.log-in-form {
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    position: relative;
+    width: 80%;
+    align-self: center;
+    gap: 15px;
+}
+
+.log-in-form__gender-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.log-in-form__label {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-in-form__submit-button {
+    --h: 260deg;
+    --s: 100%;
+    --l: 50%;
+
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    border-radius: 50%;
+    color: white;
+}

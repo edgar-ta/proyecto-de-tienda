@@ -1,0 +1,53 @@
+.navbar {
+    background-color: orange;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.navbar__account {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding-left: 0;
+    height: 100%;
+}
+
+.navbar__li {
+    --h: 60deg;
+    --s: 10%;
+    --l: 10%;
+
+    height: 100%;
+    width: 6vw;
+    border-left: 1px solid white;
+}
+
+@media (max-width: 500px) {
+    .navbar__li {
+        width: 12vw;
+    }
+}
+
+.navbar__li:first-child {
+    border-left: none;
+}
+
+.navbar__a {
+    display: contents;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
