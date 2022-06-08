@@ -37,6 +37,8 @@ export class CarouselElement extends CustomElement {
         this.currentIndex = Number.parseInt(this.getAttribute("data-current-index")) ?? 0;
         this.visibleCards = Number.parseInt(this.getAttribute("data-visible-cards")) ?? 1;
 
+
+        console.log("There is actually a reson for the constructor to be called xd");
         this.__shadowRoot__.getElementById("leftButton").addEventListener("click", () => this.slip(-1));
         this.__shadowRoot__.getElementById("rightButton").addEventListener("click", () => this.slip(1));
     }

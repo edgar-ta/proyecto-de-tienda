@@ -15,8 +15,8 @@ disabled; names suffixed with a plus sign indicate objects that can actually be 
 and as a logical consiquence, names without a suffix can't be deleted nor disabled.
 
 User
-id	name	middle_name	last_name	location	age	email	phone	gender	enabled
-INT	VARCHAR	VARCHAR		VARCHAR		VARCHAR		INT	VARCHAR	VARCHAR	VARCHAR	BOOL
+id	name	middle_name	last_name	age	email	phone	gender	enabled
+INT	VARCHAR	VARCHAR		VARCHAR		INT	VARCHAR	VARCHAR	VARCHAR	BOOL
 
 	Like
 	id	user	rate

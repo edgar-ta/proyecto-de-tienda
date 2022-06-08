@@ -6,14 +6,14 @@ include_once "./html/general/header.php";
     <script type="module" src="./main.js"></script>
     <carousel-element></carousel-element>
 
-    <template id="carouselTemplate">
-        <button id="left"><</button>
+    <template id="carouselElementTemplate">
+        <button id="leftButton"><</button>
         <div id="window"><div id="tape">
         </div></div>
-        <button id="right">></button>
+        <button id="rightButton">></button>
     </template>
 
-    <template id="carouselCardTemplate" data-properties="src, rate, name, price">
+    <template id="carouselCardTemplate">
         <h2></h2>
         <div>
             <img>

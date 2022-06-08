@@ -16,8 +16,6 @@ include_once "D:\high-school\semester-4\programming-male\proyecto-de-tienda\html
         <input type="tel" name="nameLast" id="nameLastInput" autocomplete="additional-name">
     </label>
 
-
-
     <!-- MAKE THE INPUT DO REQUESTS TO THE DATABASE TO CHECK FOR USERNAMES ALREADY OCCUPIED -->
     <label class="log-in-form__label" style="grid-column: 1 / 5">
         Nombre de Usuario
