@@ -1,0 +1,48 @@
+.form__label {
+    --h: 0deg;
+    --s: 0%;
+    --l: 20%;
+    font-size: 0.75rem;
+    color: hsl(var(--h), var(--s), var(--l));
+    transition: color 200ms ease;
+}
+
+.form__label:hover {
+    color: hsl(var(--h), var(--s), calc(var(--l) - 20%));
+}
+
+.form__label--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label--large-font-size {
+    font-size: 1.25rem;
+}
+
+.form__error-span {
+    position: absolute;
+    top: 100%;
+    font-size: 0.7rem;
+}
+
+.form__input {
+    border: 2px solid var(--light-gray);
+    border-radius: 3px;
+    height: 2rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 200ms ease;
+}
+
+.form__input:hover, .form__input:focus {
+    border-color: black;
+    outline: none;
+}
+
+.form__input--submit {
+    --h: 230deg;
+    --s: 100%;
+    --l: 50%;
+    color: white;
+}

@@ -1,6 +1,9 @@
 :root {
     --navbar-tab-width: 6vw;
     --navbar-height: 10vh;
+
+    --orange: orange;
+    --light-gray: hsl(0deg, 0%, 60%);
     font-family: sans-serif;
 }
 

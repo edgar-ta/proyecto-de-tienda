@@ -73,3 +73,4 @@ $logged_in = getLoggedIn();
             </li>
         </ul>
     </nav>
+    <span style="height: var(--navbar-height);"></span>
