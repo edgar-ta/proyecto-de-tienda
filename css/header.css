@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    background-color: var(--dark-blue);
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.navbar__a {
+    flex-grow: 1;   
+    padding: 3vmin 5vmin;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 300ms ease;
+    transition-property: background-color, color;
+    font-size: 1rem;
+}
+
+.navbar__a:hover {
+    background-color: var(--light-blue);
+}

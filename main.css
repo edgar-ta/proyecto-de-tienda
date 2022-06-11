@@ -1,0 +1,23 @@
+:root {
+    font-family: sans-serif;
+    --dark-blue: hsl(205deg, 35%, 18%);
+    --light-blue: hsl(205deg, 100%, 38%);
+    --navbar-height: calc(6vmin + 1rem);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+}
+
+.hoverable {
+    background-color: hsl(var(--h), var(--s, 100%), var(--l, 50%));
+}
+
+.hoverable:hover {
+    background-color: hsl(var(--h), var(--s, 100%), calc(var(--l, 50%) - 10%));
+}

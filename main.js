@@ -1,6 +1,7 @@
-import { CarouselElement } from "./js/carousel-element.js";
-import { CarouselCard } from "./js/carousel-card.js";
-import { defineCustomElement } from "./js/custom-element.js";
+// no supe cómo usar links en vez de botones en el css y mejor les añadí un
+// listener en el javascript xd
 
-defineCustomElement(CarouselElement);
-defineCustomElement(CarouselCard);
+document.querySelectorAll(".post-button__container").forEach(container => {
+    container.addEventListener("click", () => document.location = container.getAttribute("href"));
+});
+

@@ -1,28 +1,74 @@
-:root {
-    --navbar-tab-width: 6vw;
-    --navbar-height: 10vh;
-    font-family: sans-serif;
-}
-
-body {
-    margin: 0;
+main {
     display: flex;
-    flex-direction: column;
 }
 
-.black-text-border {
+aside {
+    position: sticky;
+    /* remember position sticky requires a side to work */
+    top: var(--navbar-height);
+    /* the div parent is a flex box; which hinders the sticky positioning */
+    align-self: flex-start;
+    box-sizing: border-box;
+    padding: 3vmin;
+}
+
+video {
+    width: 30vw;
+}
+
+.post {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5vmin;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 10px;
+    margin-top: 3vmin;
+}
+
+.post-button, .post-button__container {
     color: white;
-    text-shadow: black 1px 1px 2px;;
+    height: 2.5rem;
+    transition: background-color 300ms ease;
 }
 
-.hoverable {
-    background-color: hsl(var(--h), var(--s), var(--l));
-}
-
-.hoverable:hover {
-    background-color: hsl(var(--h), var(--s), calc(var(--l) - 10%));
-}
-
-.pointerable {
+.post-button {
+    border: none;
+    background-color: transparent;
     cursor: pointer;
+}
+
+.post-button__container {
+    background-color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    width: fit-content;
+    border-radius: 3px;
+    padding: 0 2vmin;
+}
+
+.post__h2 {
+    margin-top: 0;
+}
+
+.post-button__container:hover {
+    background: var(--light-blue);
+}
+
+.post-button__span {
+    position: relative;
+    cursor: pointer;
+}
+
+.post-button__container:hover .post-button__span {
+    animation: 300ms ease-in forwards post-button__arrow;
+}
+
+@keyframes post-button__arrow {
+    from {
+        right: 0;
+    }
+    to {
+        right: -1vmin;
+    }
 }
