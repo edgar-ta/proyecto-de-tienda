@@ -6,7 +6,10 @@ include_once relative_path("../html/header.html");
 
 ?>
 
-
+<h1>Bibliografía</h1>
+<div>
+    <p></p>
+</div>
 
 <?php
 
