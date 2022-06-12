@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: hsl(hue, saturation, lightness);
+}
+
+.navbar__sub-tab-container {
+    display: none;
+}
+
+.navbar__tab {
+    color: white;
+}
+
+.navbar__sup-tab-container:hover .navbar__sub-tab-container {
+    display: block;
+}
+
