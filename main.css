@@ -1,0 +1,9 @@
+:root {
+    font-family: sans-serif;
+    --dark-blue: hsl(205deg, 35%, 25%);
+    --navbar-height: 10vh;
+}
+
+body {
+    margin: 0;
+}

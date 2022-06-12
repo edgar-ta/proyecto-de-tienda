@@ -2,18 +2,35 @@
     display: flex;
     position: sticky;
     top: 0;
-    background-color: hsl(hue, saturation, lightness);
+    background-color: var(--dark-blue);
+    height: var(--navbar-height);
+}
+
+.navbar__tab {
+    font-size: 1rem;
+    color: white;
+    margin: auto 1vw;
+}
+
+.navbar__tab:hover {
+    background-color: white;
+}
+
+.navbar__tab--sub {
+    margin: calc((var(--navbar-height) - 1rem) / 2) 1vw;
+}
+
+.navbar__tab:hover .navbar__sub-tab-container {
+    display: flex;
+}
+
+.navbar__sub-tab-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
 }
 
 .navbar__sub-tab-container {
     display: none;
 }
-
-.navbar__tab {
-    color: white;
-}
-
-.navbar__sup-tab-container:hover .navbar__sub-tab-container {
-    display: block;
-}
-
