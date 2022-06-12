@@ -1,6 +1,7 @@
 :root {
     font-family: sans-serif;
     --dark-blue: hsl(205deg, 35%, 25%);
+    --light-blue: hsl(205deg, 100%, 40%);
     --navbar-height: 10vh;
 }
 

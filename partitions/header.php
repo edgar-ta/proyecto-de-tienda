@@ -11,19 +11,18 @@
     <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
-    <video src="/res/moctezuma.mp4" controls></video>
     <nav class="navbar">
         <a class="navbar__tab" href="/">Moctezuma Xocoyotzin</a>
-        <div class="navbar__tab">
-            <a class="" href="#articles" >Artículos</a>
+        <div class="navbar__tab navbar__tab-container">
+            <a class="navbar__tab" href="#articles" >Artículos</a>
             <div class="navbar__sub-tab-container">
-                <a class="navbar__tab--sub" href="/info/bibliography.php">Bibliografía</a>
-                <a class="navbar__tab--sub" href="/info/descendants.php">Descendencia</a>
-                <a class="navbar__tab--sub" href="/info/reignate.php">Reinado</a>
-                <a class="navbar__tab--sub" href="/info/trivia.php">Trivia</a>
+                <a class="navbar__tab" href="/info/bibliography.php">Bibliografía</a>
+                <a class="navbar__tab" href="/info/descendants.php">Descendencia</a>
+                <a class="navbar__tab" href="/info/reignate.php">Reinado</a>
+                <a class="navbar__tab" href="/info/trivia.php">Trivia</a>
             </div>
         </div>
         <a class="navbar__tab" href="/about-nahuatl.php">Sobre el Náhuatl</a>
     </nav>
-    <header>Moctezuma Xocoyotzin</header>
+    <span style="display: block; height: var(--navbar-height);"></span>
     <main>

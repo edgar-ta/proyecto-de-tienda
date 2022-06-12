@@ -1,3 +1,39 @@
 footer {
     display: flex;
+    background-color: var(--dark-blue);
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5vh 0;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 1px solid white;
+    padding: 0 5vw;
+}
+
+.footer__section:last-child {
+    border-right: none;
+}
+
+.footer__header {
+    font-size: 0.75rem;
+}
+
+.footer__a {
+    text-decoration: none;
+    color: white;
+    margin: 0.75vh 0;
+    transition: color 300ms ease;
+}
+
+.footer__a:hover {
+    color: lightgray;
+}
+
+.footer__li {
+    margin: 1vmin 0;
 }

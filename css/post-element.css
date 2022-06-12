@@ -1,0 +1,37 @@
+:host {
+    padding: 5vmin 3vmin;
+    border: 1px solid gray;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    transition: box-shadow 300ms ease;
+}
+
+:host(:hover) {
+    box-shadow: 3px 3px 4px gray;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: var(--dark-blue);
+    left: 0;
+    height: 5vh;
+    aspect-ratio: 3;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid var(--dark-blue);
+    cursor: pointer;
+    position: relative;
+    transition: 300ms ease;
+    transition-property: background-color, left;
+}
+
+button:hover {
+    background-color: var(--light-blue);
+    left: 0.25vw;
+}
+
