@@ -2,13 +2,14 @@
     display: flex;
     position: fixed;
     width: 100vw;
+    color: white;
     background-color: var(--dark-blue);
     z-index: 1;
 }
 
 .navbar__tab {
     font-size: 1rem;
-    color: white;
+    color: inherit;
     height: var(--navbar-height);
     display: flex;
     align-items: center;
@@ -37,7 +38,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--dark-blue);
+    background-color: orange;
+    color: black;
 }
 
 .navbar__sub-tab-container {

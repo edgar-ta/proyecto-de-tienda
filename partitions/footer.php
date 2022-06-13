@@ -8,14 +8,14 @@
                 <li class="footer__li"><a class="footer__a" href="https://www.github.com/edgar-ta">GitHub</a></li>
             </ul>
         </section>
-        <section class="footer__section">
+        <section class="footer__section" style="width: 20vw;">
             <h1 class="footer__header">Acerca De</h1>
             Esta página es un proyecto para la clase de programación de la maestra María de la Paz
             del CBTis 145
         </section>
         <section class="footer__section">
             <h1 class="footer__header">CBTis 145</h1>
-            <a class="footer__a" href=""><img src="/res/cbtis-logo.png" alt="Logo del CBTis 145"></a>
+            <a class="footer__a" href=""><img style="max-width: 10vw; max-height: 10vh;" src="/res/cbtis-logo.jpg" alt="Logo del CBTis 145"></a>
         </section>
     </footer>
 </body>

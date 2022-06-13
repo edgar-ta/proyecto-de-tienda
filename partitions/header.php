@@ -12,13 +12,13 @@
 </head>
 <body>
     <nav class="navbar">
-        <a class="navbar__tab" href="/">Moctezuma Xocoyotzin</a>
+        <a class="navbar__tab" href="/" title="Da click para regresar a la página principal">Moctezuma Xocoyotzin</a>
         <div class="navbar__tab navbar__tab-container">
             <a class="navbar__tab" href="#articles" >Artículos</a>
             <div class="navbar__sub-tab-container">
-                <a class="navbar__tab" href="/info/bibliography.php">Bibliografía</a>
-                <a class="navbar__tab" href="/info/descendants.php">Descendencia</a>
-                <a class="navbar__tab" href="/info/reignate.php">Reinado</a>
+                <a class="navbar__tab" href="/info/biography.php">Biografía</a>
+                <a class="navbar__tab" href="/info/offspring.php">Descendencia</a>
+                <a class="navbar__tab" href="/info/reign.php">Reinado</a>
                 <a class="navbar__tab" href="/info/trivia.php">Trivia</a>
             </div>
         </div>

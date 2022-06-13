@@ -1,8 +1,3 @@
-main {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .moctezuma-video {
     max-height: calc(95vh - var(--navbar-height));
     max-width: 100%;

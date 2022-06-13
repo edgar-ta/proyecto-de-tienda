@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/post-element.css">
     <h2></h2>
     <p><slot></slot></p>
-    <button>Leer más ></button>
+    <button>Leer más &#10140;</button>
 </template>
 
 <section>
@@ -16,19 +16,19 @@
 
 <section id="articles">
     <h1>Artículos</h1>
-    <post-element header="Bibliografía">
+    <post-element header="Biografía" href="/info/biography.php">
         fdksljflksdj
     </post-element>
     
-    <post-element header="Bibliografía">
+    <post-element header="Descendencia" href="/info/offspring.php">
+        fdksljflksdj
+    </post-element>
+
+    <post-element header="Reinado" href="/info/reign.php">
         fdksljflksdj
     </post-element>
     
-    <post-element header="Bibliografía">
-        fdksljflksdj
-    </post-element>
-    
-    <post-element header="Bibliografía">
+    <post-element header="Trivia" href="/info/trivia.php">
         fdksljflksdj
     </post-element>
 </section>

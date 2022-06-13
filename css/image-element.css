@@ -1,0 +1,20 @@
+.float-left, .float-right {
+    --margin: 2vmin;
+    margin: 0;
+}
+
+.float-left {
+    float: left;
+    margin-right: var(--margin);
+}
+
+.float-right {
+    float: right;
+    margin-left: var(--margin);
+}
+
+/* .image-container[seeing="true"] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+} */

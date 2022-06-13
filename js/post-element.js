@@ -7,6 +7,10 @@ customElements.define("post-element", class PostElement extends HTMLElement {
         this.__shadowRoot__.appendChild(PostElement.template.cloneNode(true));
 
         this.__shadowRoot__.querySelector("h2").innerText = this.getAttribute("header");
+        let newLocation = this.getAttribute("href");
+        if (newLocation !== null) {
+            this.__shadowRoot__.querySelector("button").addEventListener("click", () => document.location = newLocation);
+        }
     }
 });
 
