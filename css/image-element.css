@@ -1,17 +1,51 @@
-.float-left, .float-right {
+:host {
+    position: relative;
+}
+
+a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: var(--dark-blue);
+    transition: opacity 300ms ease;
+    color: white;
+    padding: 1vmin;
+    border-radius: 3px;
+    margin: 0;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+
+img {
+    opacity: 1;
+    transition: opacity 300ms ease;
+}
+
+:host(:hover) a {
+    opacity: 1;
+}
+
+:host(:hover) img {
+    opacity: 0.5;
+}
+
+:host(.float-left), :host(.float-right) {
     --margin: 2vmin;
     margin: 0;
 }
 
-.float-left {
+:host(.float-left) {
     float: left;
     margin-right: var(--margin);
 }
 
-.float-right {
+:host(.float-right) {
     float: right;
     margin-left: var(--margin);
 }
+
 
 /* .image-container[seeing="true"] {
     width: 100vw;

@@ -9,6 +9,7 @@ include_once dirname(__DIR__) . "/partitions/header.php";
 <template id="imageElementTemplate">
     <link rel="stylesheet" href="/css/image-element.css">
     <img>
+    <a></a>
 </template>
 
 <h1>Biografía</h1>
@@ -81,7 +82,7 @@ Churubusco), causó gran destrucción en la ciudad, pues la gran ola azotó a va
 umbral de una puerta. La herida mató a Ahuízotl varios meses después de la inundación.​
 </p>
 
-<image-element float="left" src="/res/coronacion-de-moctezuma.png" alt="Celebración por la coronoación de moctezuma"></image-element>
+<image-element float="left" src="/res/coronacion-de-moctezuma.png" alt="Celebración por la coronación de moctezuma"></image-element>
 
 <p>
 No se sabe con certidumbre la fecha de coronación de Moctezuma, ya que las fuentes ofrecen diversas fechas entre los años de 1502 y 1503. Una inscripción tallada en piedra actualmente ubicada en el
