@@ -27,6 +27,8 @@ include_once dirname(__DIR__) . "/partitions/header.php";
 
         <script defer>
 
+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
+
 const image = document.getElementById("image");
 const input = document.getElementById("widthPercentageInput");
 
